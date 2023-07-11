@@ -1,0 +1,37 @@
+#ball {
+    width: 3vw;
+    height: 3vw;
+    -webkit-border-radius: 1vw;
+    -moz-border-radius: 1vw;
+    border-radius: 25vw;
+    background: red;
+    outline-style: auto;
+    outline-width: 1vw;
+    position: absolute;
+    left: 48.5vw;
+    top: 48.5vh;
+
+}
+#score{
+    font-weight: bold;
+    position: absolute;
+    font-size: 8vw;
+    left: 43%;
+    text-align: center;
+}
+#left{
+    width: 1vw;
+    height: 10vw;
+    background: black;
+    position: absolute;
+    left: 9vw;
+    top: 45vh;
+}
+#right{
+    width: 1vw;
+    height: 10vw;
+    background: black;
+    position: absolute;
+    left: 91vw;
+    top: 45vh;
+}
